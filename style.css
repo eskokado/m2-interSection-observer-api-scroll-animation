@@ -1,0 +1,28 @@
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+  border: 1px solid #222;
+  background: #eb3333;
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+.show {
+  background-color: #4b6beb;
+  transition: 2s ease;
+  animation: animationDiv 2s forwards;
+}
+
+@keyframes animationDiv {
+  0% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
